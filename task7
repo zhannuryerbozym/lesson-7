@@ -1,0 +1,6 @@
+basket = {"sabiz":4, "piyaz": 2, "yet":1}
+x=basket["sabiz"]
+print(x)
+if x>3:
+    basket{'sabiz'}=1
+print(basket)
