@@ -1,0 +1,4 @@
+salyari = {"aibek":120000,"Zhanar": 150000, "samat":90000, "dinara":180000}
+for name, salary in salyari.items():
+    if salary > 150000:
+        print(name)
