@@ -1,0 +1,6 @@
+bought =  {"alma": 3, "banana":5, "chocolade":2}
+x=bought['banana']
+print(x)
+if x>3:
+    bought['banana']=0
+print(bought)
