@@ -1,0 +1,8 @@
+teams = {"barselona":50, "real": 48, "milan":45, "chelsi":49}
+max_name=""
+max_value=0
+for team, point in teams.items():
+    if point>max_value:
+        max_value=point
+        max_name=team
+print(max_value, max_name)
