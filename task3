@@ -1,0 +1,7 @@
+prices = {"alma": 200, "banana":150, "orik": 300, "shie":400}
+cart =[]
+for fruit, price in prices.items():
+    if price>250:
+        print(fruit)
+        cart.append(fruit)
+        print(cart)
