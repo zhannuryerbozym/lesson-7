@@ -1,0 +1,6 @@
+courses={"python":35, "java":40, "c++":25, "javascript":30}
+cart=[]
+for course, count in courses.items():
+    if count<30:
+        cart.append(course.capitalize())
+        print(cart)
