@@ -1,0 +1,6 @@
+submission_times={"nurbol":[30, 40], "ayazhan":[25, 35], "yerzhan":[50,60]}
+for name, time in submission_times.items():
+    x=sum(time)/len(time)
+    print(x)
+    if x<35:
+        print(name, x)
