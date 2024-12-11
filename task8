@@ -1,0 +1,8 @@
+library = {"python negizdery": 150, "mashinalik okytu":200, "java 101":100, "web azirleu":180}
+max_name=""
+max_value=0
+for book, total in library.items():
+    if total>max_value:
+        max_value = total
+        max_name = book
+        print(max_name)
